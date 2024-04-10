@@ -1,0 +1,154 @@
+@media(max-width:768px){
+    .service__itemContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* gap: 50px; */
+    }
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    color:#fff;
+}
+ul, li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+}
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px; 
+}
+.header__content{
+    padding: 10px 0px 1px;
+}
+.header__container-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    color:#5e5e5e;
+    font-size: 16px;
+    line-height: 36px;
+    border:1px solid transparent;
+    padding:0 16px;
+    transition: all .3s;
+}
+.menu a:hover{
+    border-color:black;
+}
+.menu li + li {
+    padding-left: 10px;
+}
+.header__logo-element{
+    width: 43px;
+    height: 43px;
+}
+
+.header1{
+    background-image:url('../img/steve-johnson-YJGq5H9ofy0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    color:#fff;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.header1__text{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.header1__title{
+    font-size: 56px;
+    line-height: 32px;
+}
+.header1__description{
+    font-size: 32px;
+    line-height: 42px;
+}
+.service{
+    margin:30px 0;
+}
+
+.service__item{
+    width: 330px;
+    text-align: center;
+    padding: 30px 0 80px;
+    position: relative;
+    min-height: 375px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);
+}
+.service__item img{
+    width: 64px;
+    height: 64px;
+}
+.service__item-title{
+    color:#000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 22px 0;
+}
+.service__item-btn{
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+.service__item-link{
+    color:#050505;
+    border-bottom: 1px solid #050505;
+    margin-right: 0;
+}
+
+.service__itemContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #5e5e5e;
+    padding: 20px  0px 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__title{
+    color:#fff;
+}
+.footer__text{
+    color:gainsboro;
+    margin-bottom: 20px;
+
+}
+.footer__info-list li{
+    margin-top: 10px;
+}
+.footer__info-list a{
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 33px;
+}
+.footer__copyright{
+    color:white;
+}
